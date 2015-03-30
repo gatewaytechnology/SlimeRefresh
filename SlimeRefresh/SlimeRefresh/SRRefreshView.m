@@ -69,7 +69,7 @@
         [_slime setPullApartTarget:self
                             action:@selector(pullApart:)];
         _dragingHeight = height;
-        _upInset = 44;
+        _upInset = 0;  // FIXME: DME - Patch to remove blank space
     }
     return self;
 }
